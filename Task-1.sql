@@ -1,6 +1,6 @@
 create table "employees" (
 	id SERIAL PRIMARY KEY,
-	name TEXT  UNIQUE,
+	name TEXT,
 	department CHAR(50),
 	salary Decimal,
 	hire_date Date
